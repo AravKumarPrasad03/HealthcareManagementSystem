@@ -187,7 +187,7 @@ const RegisterForm = ({ user }: { user: User }) => {
               control={form.control}
               name="address"
               label="Address"
-              placeholder="14 street, New york, NY - 5101"
+              placeholder="1001 Sector 10 Chandigarh"
             />
 
             <CustomFormField
@@ -255,7 +255,7 @@ const RegisterForm = ({ user }: { user: User }) => {
               control={form.control}
               name="insuranceProvider"
               label="Insurance provider"
-              placeholder="BlueCross BlueShield"
+              placeholder="Digit , LIC , HDFC"
             />
 
             <CustomFormField
@@ -274,7 +274,7 @@ const RegisterForm = ({ user }: { user: User }) => {
               control={form.control}
               name="allergies"
               label="Allergies (if any)"
-              placeholder="Peanuts, Penicillin, Pollen"
+              placeholder="If Any Allergies"
             />
 
             <CustomFormField
@@ -282,7 +282,7 @@ const RegisterForm = ({ user }: { user: User }) => {
               control={form.control}
               name="currentMedication"
               label="Current medications"
-              placeholder="Ibuprofen 200mg, Levothyroxine 50mcg"
+              placeholder="Medicine Description"
             />
           </div>
 
@@ -293,7 +293,7 @@ const RegisterForm = ({ user }: { user: User }) => {
               control={form.control}
               name="familyMedicalHistory"
               label=" Family medical history (if relevant)"
-              placeholder="Mother had brain cancer, Father has hypertension"
+              placeholder="If Any"
             />
 
             <CustomFormField
@@ -301,7 +301,7 @@ const RegisterForm = ({ user }: { user: User }) => {
               control={form.control}
               name="pastMedicalHistory"
               label="Past medical history"
-              placeholder="Appendectomy in 2015, Asthma diagnosis in childhood"
+              placeholder="If Any"
             />
           </div>
         </section>
@@ -330,7 +330,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="identificationNumber"
             label="Identification Number"
-            placeholder="123456789"
+            placeholder="1234 5678 1234 6789"
           />
 
           <CustomFormField
